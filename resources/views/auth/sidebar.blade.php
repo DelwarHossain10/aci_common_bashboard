@@ -39,55 +39,6 @@
                 <div data-i18n="Analytics">Business</div>
             </a>
         </li>
-        <li class="menu-item ">
-            <a href="#" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-customize"></i>
-                <div data-i18n="Analytics">Category Type</div>
-            </a>
-        </li>
-        <li class="menu-item ">
-            <a href="#" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-food-menu"></i>
-                <div data-i18n="Analytics">Category</div>
-            </a>
-        </li>
-        <li class="menu-item">
-            <a href="#" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-add-to-queue"></i>
-                <div data-i18n="Analytics">Sub Category</div>
-            </a>
-        </li>
-        <li class="menu-item ">
-            <a href="#" class="menu-link">
-                <i class="menu-icon tf-icons bx bxl-product-hunt"></i>
-                <div data-i18n="Analytics">Product</div>
-            </a>
-        </li>
-        <li class="menu-item">
-            <a href="#" class="menu-link">
-                <i class="menu-icon tf-icons bx bxs-building-house"></i>
-                <div data-i18n="Analytics">Blog Post</div>
-            </a>
-        </li>
-        <li class="menu-item">
-            <a href="#" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-clinic"></i>
-                <div data-i18n="Analytics">Gov Organization</div>
-            </a>
-        </li>
-        <li class="menu-item">
-            <a href="#" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-clinic"></i>
-                <div data-i18n="Analytics">Non Gov Organization</div>
-            </a>
-        </li>
-
-        <li class="menu-item">
-            <a href="#" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-group"></i>
-                <div data-i18n="Analytics">Users</div>
-            </a>
-        </li>
-      
+       
     </ul>
 </aside>

@@ -20,11 +20,11 @@
                             @csrf
                             <div class="app-brand justify-content-center">
                                 <a href="/login" class="app-brand-link">
-                                    <span class="app-brand-text text-body fw-bolder">{{ ucfirst('AHD') }}</span>
+                                    <span class="app-brand-text text-body fw-bolder">{{ ucfirst('Dashboard ') }}</span>
                                 </a>
                             </div>
                             <h3 class="mb-2 app-brand-text text-body fw-bolder text-center">Welcome to
-                                {{ ucfirst('AHD') }}</h3>
+                                {{ ucfirst('Dashboard ') }}</h3>
                             <p class="mb-4 text-center">Please Login to start your journey</p>
                             <div class="mb-3 fv-plugins-icon-container">
                                 <label for="email" class="form-label">Email</label>
