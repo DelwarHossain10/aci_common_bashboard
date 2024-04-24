@@ -33,10 +33,16 @@
         <li class="menu-header small text-uppercase">
             <span class="menu-header-text">System Module</span>
         </li>
-        <li class="menu-item ">
+        <li class="menu-item">
             <a href="#" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-business"></i>
                 <div data-i18n="Analytics">Business</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="{{ url('users') }}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-group"></i>
+                <div data-i18n="Analytics">Users</div>
             </a>
         </li>
        

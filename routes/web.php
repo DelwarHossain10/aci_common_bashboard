@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,5 +39,8 @@ Route::get('theme_mode', function (Request $request) {
     $request->session()->put('theme', $request->theme);
     return back();
 })->name('theme.update');
+
+//Route::get('users', [UserController::class, 'index'])->name('users.index');
+Route::get('users', [UserController::class, 'datatable']);
 
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
