@@ -40,7 +40,7 @@ Route::get('theme_mode', function (Request $request) {
     return back();
 })->name('theme.update');
 
-//Route::get('users', [UserController::class, 'index'])->name('users.index');
-Route::get('users', [UserController::class, 'datatable']);
+Route::get('users', [UserController::class, 'index'])->name('users.index');
+// Route::get('users', [UserController::class, 'datatable']);
 
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
