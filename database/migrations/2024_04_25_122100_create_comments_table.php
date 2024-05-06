@@ -18,6 +18,8 @@ class CreateCommentsTable extends Migration
             $table->text('sm_comment')->nullable();
             $table->string('sm_distributor_type')->nullable();
             $table->text('sm_distributor_description')->nullable();
+            $table->bigInteger('created_by')->nullable();
+            $table->bigInteger('updated_by')->nullable();
             $table->timestamps();
         });
     }

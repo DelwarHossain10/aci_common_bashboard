@@ -17,8 +17,10 @@ class CreateDocumentsTable extends Migration
             $table->id();
             $table->unsignedBigInteger('comments_id');
             $table->foreign('comments_id')->references('id')->on('comments')->onDelete('cascade');
-            $table->string('type');
-            $table->string('path');
+            $table->string('type')->nullable();
+            $table->string('path')->nullable();
+            $table->bigInteger('created_by')->nullable();
+            $table->bigInteger('updated_by')->nullable();
             $table->timestamps();
         });
     }

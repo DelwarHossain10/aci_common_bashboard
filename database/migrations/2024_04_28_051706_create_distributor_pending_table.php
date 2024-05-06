@@ -15,11 +15,13 @@ class CreateDistributorPendingTable extends Migration
     {
         Schema::create('distributor_pending', function (Blueprint $table) {
             $table->id();
-            $table->string('code_creation');
-            $table->string('distributor_form');
-            $table->string('business_infor');
-            $table->string('documents_comments');
-            $table->string('code_closure');
+            $table->string('code_creation')->nullable();
+            $table->string('distributor_form')->nullable();
+            $table->string('business_infor')->nullable();
+            $table->string('documents_comments')->nullable();
+            $table->string('code_closure')->nullable();
+            $table->bigInteger('created_by')->nullable();
+            $table->bigInteger('updated_by')->nullable();
             $table->timestamps();
         });
     }
